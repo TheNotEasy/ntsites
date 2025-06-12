@@ -3,7 +3,7 @@ import Landing from "../landing";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "ntSites" },
+    { title: "ntSites - Сайты" },
     { name: "description", content: "Создаю сайты “под ключ”" },
   ];
 }
