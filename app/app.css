@@ -7,9 +7,10 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-stone-900 text-white;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+@utility container {
+  margin: 0 auto;
+  padding: 0 20px;
 }
