@@ -1,7 +1,7 @@
 import Button from "~/components/button"
 import logo from "./logo.svg"
 import { Link } from "react-router"
-import { TelegramLogoIcon } from "@phosphor-icons/react"
+import { TelegramLogoIcon } from "@phosphor-icons/react/ssr"
 
 export default function Landing() {
   return (
